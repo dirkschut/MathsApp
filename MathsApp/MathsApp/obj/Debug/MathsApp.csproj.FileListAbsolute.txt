@@ -1,0 +1,10 @@
+D:\dev\MathsApp\MathsApp\bin\Debug\MathsApp.exe.config
+D:\dev\MathsApp\MathsApp\bin\Debug\MathsApp.exe
+D:\dev\MathsApp\MathsApp\bin\Debug\MathsApp.pdb
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.csprojAssemblyReference.cache
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.MathsApp.resources
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.Properties.Resources.resources
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.csproj.GenerateResource.cache
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.csproj.CoreCompileInputs.cache
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.exe
+D:\dev\MathsApp\MathsApp\obj\Debug\MathsApp.pdb
