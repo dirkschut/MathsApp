@@ -96,6 +96,7 @@
             this.tb_Decimal.Size = new System.Drawing.Size(100, 20);
             this.tb_Decimal.TabIndex = 3;
             this.tb_Decimal.Text = "0";
+            this.tb_Decimal.TextChanged += new System.EventHandler(this.tb_Decimal_TextChanged);
             // 
             // lbl_Decimal
             // 

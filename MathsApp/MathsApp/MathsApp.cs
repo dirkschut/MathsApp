@@ -12,9 +12,12 @@ namespace MathsApp
 {
     public partial class MathsApp : Form
     {
+        private NumberConversion numberConversion;
+
         public MathsApp()
         {
             InitializeComponent();
+            numberConversion = new NumberConversion(0);
         }
 
         /// <summary>
@@ -35,6 +38,22 @@ namespace MathsApp
         private void pb_Github_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/mrDLSable/MathsApp");
+        }
+
+        /// <summary>
+        /// Changes the other conversion fields when the decimal one is changed.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tb_Decimal_TextChanged(object sender, EventArgs e)
+        {
+            int output = 0;
+            if(int.TryParse(tb_Decimal.Text, out output))
+            {
+                numberConversion.SetDecimal(output);
+                tb_Binary.Text = numberConversion.GetBinary();
+                tb_Hexadecimal.Text = numberConversion.GetHexadecimal();
+            }
         }
     }
 }
