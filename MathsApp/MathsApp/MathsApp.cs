@@ -27,7 +27,12 @@ namespace MathsApp
             Application.Exit();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Open github repo in default browser.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pb_Github_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/mrDLSable/MathsApp");
         }
